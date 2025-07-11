@@ -1,0 +1,100 @@
+.con1 {
+  box-sizing: border-box;
+  border: 2px solid;
+  background-color: black;
+  color: white;
+  width: 100%;
+  justify-content: space-around;
+
+  display: flex;
+}
+.p1:hover {
+  background-color: lightslategrey;
+}
+.p1 {
+  padding: 10px;
+  margin: 5px;
+}
+.p2 {
+  padding: 10px;
+  margin: 10px;
+}
+.p2:hover {
+  background-color: lightslategrey;
+}
+.im img {
+  width: 40px;
+}
+.con2 {
+  box-sizing: border-box;
+  border: 2px solid;
+  background-color: black;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+}
+.name {
+  display: flex;
+}
+
+.con3 {
+  position: relative;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.image {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  color: white;
+  font-size: 20px;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+
+.text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.text hr {
+  width: 100px;
+  margin: 0 auto 10px auto;
+  border: 1px solid white;
+}
+
+.text p {
+  font-size: 18px;
+}
